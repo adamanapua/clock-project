@@ -1,0 +1,30 @@
+body{
+	background-color: black;
+}
+
+
+.clock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial;
+    letter-spacing: 7px;
+}
+.buttonAppearance {
+	position: absolute;
+	top: 70%;
+	left: 49%;
+    transform: translateX(-50%) translateY(-50%);
+	width: 100px;
+	height:50px;
+	background-color: #07eafa;
+	border-color: #25a198;
+	border-width: 3px;
+	border-radius: 12px;
+	outline: none;
+	font-size: 12px;
+	color:#25a198;
+}
